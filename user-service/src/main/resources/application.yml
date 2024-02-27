@@ -6,4 +6,13 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_vZN7WiYNK
+          issuer-uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_29P2BPUbW
+
+aws-cognito:
+  user-pool-id: us-east-1_29P2BPUbW
+  user-pool-client-id: 720kaf8pr3dlf03dadng5s239u
+  user-pool-client-secret: 7u1dpq5oknbmov52p0jc8sqpnabvv5dho7id55hrrabqrdfi1il
+
+aws-role-user:
+  access-key: AKIAQ3EGP7MLFMHRQA6T
+  secret-key: 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
