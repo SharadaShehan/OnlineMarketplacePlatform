@@ -29,3 +29,8 @@ user-service/src/main/resources/application.yml
 product-service/src/main/resources/application.yml
 order-service/src/main/resources/application.yml
 config-server/src/main/resources/application.yml
+.env
+
+# kubeconfig and minikube deployment
+kubeconfig
+minikube-deploy.yml
