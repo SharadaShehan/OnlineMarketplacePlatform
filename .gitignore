@@ -36,3 +36,8 @@ minikube-deploy.yml
 
 # kubernetes config
 kubeconfig
+
+# unnecessary services
+frontend
+cloud-gateway
+service-registry
