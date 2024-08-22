@@ -4,7 +4,8 @@
 
 #### Create configuraion files for each service
 
-1. User Service
+1. User Service (user-service/src/main/resources/application.yml)
+
     ```
     server:
         port: 9001
@@ -42,7 +43,8 @@
                 hostname: localhost
     ```
 
-2. Product Service
+2. Product Service (product-service/src/main/resources/application.yml)
+
     ```
     server:
         port: 9002
@@ -78,7 +80,8 @@
         user-service-endpoint: http://USER-SERVICE
     ```
 
-3. Order Service
+3. Order Service (order-service/src/main/resources/application.yml)
+
     ```
     server:
         port: 9003
